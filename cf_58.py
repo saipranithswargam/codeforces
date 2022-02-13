@@ -1,0 +1,15 @@
+a=int(input())
+b=int(input())
+c=int(input())
+l=[]
+l.append(a)
+l.append(b)
+l.append(c)
+m=[]
+m.append(l[0]+l[1]+l[2])
+m.append(l[0]*l[1]*l[2])
+m.append((l[0]+l[1])*l[2])
+m.append(l[0]*(l[1]+l[2]))
+print(max(m))
+m.clear()
+l.clear()
